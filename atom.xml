@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zweichen.com/"/>
-  <updated>2019-05-05T02:15:28.384Z</updated>
+  <updated>2019-12-27T08:09:28.372Z</updated>
   <id>https://zweichen.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Ubuntu 1804使用Xrdp连接到 Gnome环境</title>
+    <link href="https://zweichen.com/2019/12/27/UbuntuSetXrdpWithGnome/"/>
+    <id>https://zweichen.com/2019/12/27/UbuntuSetXrdpWithGnome/</id>
+    <published>2019-12-27T07:44:58.000Z</published>
+    <updated>2019-12-27T08:09:28.372Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;鉴于网上查到的各类ubuntu配置XRDP 基本上就是瞎几把乱写，只能，就看了下XRDP的文档，结合了一下论坛上的资料。发现需要在用户目录创建一个.xsessionrc文件。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;​    基于Ubuntu1804 桌面版本（老师装的桌面我有啥办法），所以自带gnome，然后配置使用XRDP，来多用户使用桌面。&lt;/p&gt;
+&lt;p&gt;​    解决了输入密码之后&lt;strong&gt;蓝屏无法登陆的问题&lt;/strong&gt;，至于登陆失败的时候没有提示，这是个ubuntu 的bug，锅xrdp背。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="https://zweichen.com/tags/tech/"/>
+    
+  </entry>
   
   <entry>
     <title>信息安全参考文献推荐</title>
@@ -244,12 +266,12 @@
     
     <summary type="html">
     
-      &lt;div id=&quot;aplayer-xaUGTYKL&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
+      &lt;div id=&quot;aplayer-HhuBQeIJ&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
             &lt;pre class=&quot;aplayer-lrc-content&quot;&gt;&lt;/pre&gt;
         &lt;/div&gt;
         &lt;script&gt;
           var ap = new APlayer({
-            element: document.getElementById(&quot;aplayer-xaUGTYKL&quot;),
+            element: document.getElementById(&quot;aplayer-HhuBQeIJ&quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -427,38 +449,6 @@
 &lt;p&gt;官网在这里：&lt;a href=&quot;http://guacamole.apache.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://guacamole.apache.org/&lt;/a&gt; &lt;/p&gt;
 &lt;p&gt;大致流程： 安装依赖，安装Tomcat，安装guacamole，然后安装java，写配置。然后跑起来。&lt;/p&gt;
 &lt;p&gt;更新于19年2月6日&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="tech" scheme="https://zweichen.com/tags/tech/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>多用户shadowsocks&amp;AEAD加密</title>
-    <link href="https://zweichen.com/2018/10/06/%E5%A4%9A%E7%94%A8%E6%88%B7shadowsocks&amp;AEAD%E5%8A%A0%E5%AF%86/"/>
-    <id>https://zweichen.com/2018/10/06/多用户shadowsocks&amp;AEAD加密/</id>
-    <published>2018-10-06T08:48:14.000Z</published>
-    <updated>2019-05-06T12:22:25.953Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;更新于19年4月16日&lt;/p&gt;
-&lt;p&gt;1.添加了CentOS 的支持&lt;/p&gt;
-&lt;p&gt;更新于19年4月7日。&lt;/p&gt;
-&lt;p&gt;1.更改了日本的年号——令和。&lt;/p&gt;
-&lt;p&gt;2.验证了Ubuntu，可以成功安装。但是似乎需要一次性创建用户再开启ssbash&lt;/p&gt;
-&lt;p&gt;更新于19年2月6日。&lt;/p&gt;
-&lt;p&gt;删除了一个修改设置的操作，对配置文件新增了IPV6 的支持。 &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Zwei Chen &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;本教程适用系统基于Debian /Centos/Ubuntu&lt;/p&gt;
-&lt;p&gt;（我试了一下Ubuntu18.04.1，开启之前一次性创建用户成功。但是后续中断之后重新启动可能会遇到Pid出错。）&lt;/p&gt;
-&lt;p&gt;本人采用Debian7、Debian9、Ubuntu 18.04.1、CentOS 7验证。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;功能：多用户多端口，支持限制流量的shadowsocks脚本，同时支持AEAD加密方式。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;17年五月，shadowsocks提出SIP004草案，旨在使用&lt;code&gt;AEAD 算法&lt;/code&gt;取代原先的不安全的&lt;code&gt;流加密 + OTA&lt;/code&gt;，并弃用了&lt;code&gt;一次性验证 (OTA)&lt;/code&gt;。&lt;/p&gt;
     
     </summary>
     

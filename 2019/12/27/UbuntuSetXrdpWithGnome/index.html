@@ -6,19 +6,21 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://zweichen.com">
-  <title>誰來剪月光 | Zwei&#39;s blog For World</title>
+  <title>Ubuntu 1804使用Xrdp连接到 Gnome环境 | Zwei&#39;s blog For World</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="var ap &#x3D; new APlayer({             element: document.getElementById(&quot;aplayer-HhuBQeIJ&quot;),             narrow: false,             autoplay: false,             s">
+  <meta name="description" content="鉴于网上查到的各类ubuntu配置XRDP 基本上就是瞎几把乱写，只能，就看了下XRDP的文档，结合了一下论坛上的资料。发现需要在用户目录创建一个.xsessionrc文件。  ​    基于Ubuntu1804 桌面版本（老师装的桌面我有啥办法），所以自带gnome，然后配置使用XRDP，来多用户使用桌面。 ​    解决了输入密码之后蓝屏无法登陆的问题，至于登陆失败的时候没有提示，这是个ub">
 <meta property="og:type" content="article">
-<meta property="og:title" content="誰來剪月光">
-<meta property="og:url" content="https://zweichen.com/2019/02/24/%E8%B0%81%E6%9D%A5%E5%89%AA%E6%9C%88%E5%85%89/index.html">
+<meta property="og:title" content="Ubuntu 1804使用Xrdp连接到 Gnome环境">
+<meta property="og:url" content="https://zweichen.com/2019/12/27/UbuntuSetXrdpWithGnome/index.html">
 <meta property="og:site_name" content="Zwei&#39;s blog For World">
-<meta property="og:description" content="var ap &#x3D; new APlayer({             element: document.getElementById(&quot;aplayer-HhuBQeIJ&quot;),             narrow: false,             autoplay: false,             s">
-<meta property="article:published_time" content="2019-02-24T09:36:29.000Z">
-<meta property="article:modified_time" content="2019-03-17T18:54:30.940Z">
+<meta property="og:description" content="鉴于网上查到的各类ubuntu配置XRDP 基本上就是瞎几把乱写，只能，就看了下XRDP的文档，结合了一下论坛上的资料。发现需要在用户目录创建一个.xsessionrc文件。  ​    基于Ubuntu1804 桌面版本（老师装的桌面我有啥办法），所以自带gnome，然后配置使用XRDP，来多用户使用桌面。 ​    解决了输入密码之后蓝屏无法登陆的问题，至于登陆失败的时候没有提示，这是个ub">
+<meta property="og:image" content="https://zweichen.com/Users/zwei/Github/zweichen.com/source/_posts/UbuntuSetXrdpWithGnome/0001_AuthenticationRequiredDialog.png">
+<meta property="article:published_time" content="2019-12-27T07:44:58.000Z">
+<meta property="article:modified_time" content="2019-12-27T08:09:28.372Z">
 <meta property="article:author" content="Zwei Chen">
-<meta property="article:tag" content="tractate">
+<meta property="article:tag" content="tech">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://zweichen.com/Users/zwei/Github/zweichen.com/source/_posts/UbuntuSetXrdpWithGnome/0001_AuthenticationRequiredDialog.png">
   
     <link rel="alternative" href="/atom.xml" title="Zwei&#39;s blog For World" type="application/atom+xml">
   
@@ -49,9 +51,7 @@ ga('send', 'pageview');
 
   
 
-<meta name="generator" content="Hexo 4.2.0"><link rel="stylesheet" href="/assets/css/APlayer.min.css" class="aplayer-style-marker">
-<script src="/assets/js/APlayer.min.js" class="aplayer-script-marker"></script>
-</head>
+<meta name="generator" content="Hexo 4.2.0"></head>
 
 <body>
   <div id="container" q-class="show:isCtnShow">
@@ -193,71 +193,65 @@ ga('send', 'pageview');
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-谁来剪月光" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-UbuntuSetXrdpWithGnome" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      誰來剪月光
+      Ubuntu 1804使用Xrdp连接到 Gnome环境
     </h1>
   
 
         
-        <a href="/2019/02/24/%E8%B0%81%E6%9D%A5%E5%89%AA%E6%9C%88%E5%85%89/" class="archive-article-date">
-  	<time datetime="2019-02-24T09:36:29.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-02-24</time>
+        <a href="/2019/12/27/UbuntuSetXrdpWithGnome/" class="archive-article-date">
+  	<time datetime="2019-12-27T07:44:58.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-12-27</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        
-        <div id="aplayer-HhuBQeIJ" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
-            <pre class="aplayer-lrc-content"></pre>
-        </div>
-        <script>
-          var ap = new APlayer({
-            element: document.getElementById("aplayer-HhuBQeIJ"),
-            narrow: false,
-            autoplay: false,
-            showlrc: false,
-            music: {
-              title: "誰來剪月光",
-              author: "陈奕迅",
-              url: "https://download-1252525175.cos.ap-shanghai.myqcloud.com/MUSIC/%E8%B0%81%E6%9D%A5%E5%89%AA%E6%9C%88%E5%85%89/%E8%B0%81%E6%9D%A5%E5%89%AA%E6%9C%88%E5%85%89.mp3",
-              pic: "https://download-1252525175.cos.ap-shanghai.myqcloud.com/MUSIC/%E8%B0%81%E6%9D%A5%E5%89%AA%E6%9C%88%E5%85%89/%E8%B0%81%E6%9D%A5%E5%89%AA%E6%9C%88%E5%85%89.jpeg",
-              lrc: ""
-            }
-          });
-          window.aplayers || (window.aplayers = []);
-          window.aplayers.push(ap);
-        </script>
-
-<blockquote>
-<p>世界亂的一塌糊塗 可是能怎樣<br>偶爾抬起頭來還好 有顆月亮可賞</p>
+        <blockquote>
+<p>鉴于网上查到的各类ubuntu配置XRDP 基本上就是瞎几把乱写，只能，就看了下XRDP的文档，结合了一下论坛上的资料。发现需要在用户目录创建一个.xsessionrc文件。</p>
 </blockquote>
-<p>夜深了，但是属于我的白天才刚刚开始。无论是思考还是休息，在夜晚都是最容易专注的。</p>
-<p>讨厌傍晚的暗淡，讨厌太阳的离去。</p>
+<p>​    基于Ubuntu1804 桌面版本（老师装的桌面我有啥办法），所以自带gnome，然后配置使用XRDP，来多用户使用桌面。</p>
+<p>​    解决了输入密码之后<strong>蓝屏无法登陆的问题</strong>，至于登陆失败的时候没有提示，这是个ubuntu 的bug，锅xrdp背。</p>
 <a id="more"></a>
 
-<p>但是当夜深了，就会发现月亮发出光辉，伴随着的就是安静。听不到白天的喧嚣，听不到日常的吵闹，这一刻才能让我平静。</p>
-<p>我曾躺在三楼的露天阳台，看到天上的星空。</p>
-<p>上海的星空不太一样。</p>
-<p>照片上的星空，往往是 <em>Tekapo</em> ，是北欧，是南极，是天文台。</p>
-<p>不不不，我不喜欢这样。</p>
-<p>如果眼前有个人，就去想她的世界。</p>
-<p>如果一个人，就会去想远方。</p>
-<p>我喜欢的星空离我很近。我能看到这么几光年、几十光年外的世界，仿佛触手可及，好像下一刻我就可以出现在我眼前的另一个世界。但是我似乎又太弱小了，当自己面对一个壮观的银河的时候，可能穷尽一生也看不到尽头。</p>
-<p><em>星际穿越</em> 的50年，也不过一瞬。但是一个人不过才几个一瞬？</p>
-<p>脑中就会飘过<em>百年孤独</em> ，飘过<em>星际穿越</em> ，也飘过<em>**三体</em> 这类启蒙。甚至想到<em>赤壁赋</em> ，千年之前，人类看到的月亮，就和我现在看到的一样。</p>
-<p>然后脑中归为虚无。思绪缥缈的尽头， 往往什么都没有。没有感情，没有欲望，没有那些紧张和冲动。</p>
-<p>然后不想远方了，低头把手上的事情做好。</p>
-<p>仍旧躺在月光下，月光就这么洒在身上。觉得越发明亮。</p>
-<p>思绪如河，如同万里长巾。</p>
-<p>月光如瀑布，如同思绪万千。</p>
-<p>谁来剪月光？</p>
+<h2 id="安装XRDP"><a href="#安装XRDP" class="headerlink" title="安装XRDP"></a>安装XRDP</h2><p>自己装呗：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install xrdp</span><br></pre></td></tr></table></figure>
+
+<p>禁用newcursors，因为如果使用Xorg作为会话类型，则会显示光标周围的黑色背景。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo sed -e <span class="string">'s/^new_cursors=true/new_cursors=false/g'</span> \</span><br><span class="line">           -i /etc/xrdp/xrdp.ini</span><br></pre></td></tr></table></figure>
+
+<p>重启xrdp 服务：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl restart xrdp</span><br></pre></td></tr></table></figure>
+
+<h2 id="创建Gnome用户桌面配置文件"><a href="#创建Gnome用户桌面配置文件" class="headerlink" title="创建Gnome用户桌面配置文件"></a>创建Gnome用户桌面配置文件</h2><p>这个部分就是需要特别为Gnome设置一下。很多人都是用的xfce的界面。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">D=/usr/share/ubuntu:/usr/<span class="built_in">local</span>/share:/usr/share:/var/lib/snapd/desktop</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">cat &lt;&lt;EOF &gt; ~/.xsessionrc</span><br><span class="line"><span class="built_in">export</span> GNOME_SHELL_SESSION_MODE=ubuntu</span><br><span class="line"><span class="built_in">export</span> XDG_CURRENT_DESKTOP=ubuntu:GNOME</span><br><span class="line"><span class="built_in">export</span> XDG_DATA_DIRS=<span class="variable">$&#123;D&#125;</span></span><br><span class="line"><span class="built_in">export</span> XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg</span><br><span class="line">EOF</span><br></pre></td></tr></table></figure>
+
+<p>到这里应该配置完成了，可以使用端口3389链接了。</p>
+<p>当然如果只有ssh端口，可以使用ssh把端口转发到本地。（国外主机本方法无效，因为有墙。）</p>
+<h2 id="转发ssh端口到本地"><a href="#转发ssh端口到本地" class="headerlink" title="转发ssh端口到本地"></a>转发ssh端口到本地</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh user@ipaddress -L [本地端口]:127.0.0.1:3389 -p[port]</span><br></pre></td></tr></table></figure>
+
+<p>本地端口如果也是3389（我是mac，也没有3389服务，如果是windows，换到3390保险一点）-p的端口是 ssh 的端口。</p>
+<p>如果是用putty或者mobraxterm 参考这里：</p>
+<p><a href="https://greatestrabit.github.io/2016/03/30/sshportforward/" target="_blank" rel="noopener">https://greatestrabit.github.io/2016/03/30/sshportforward/</a></p>
+<h2 id="修复需要身份验证"><a href="#修复需要身份验证" class="headerlink" title="修复需要身份验证"></a>修复需要身份验证</h2><p>如果使用Xorg作为会话类型，则在创建会话后将显示“Authentication Required”对话框。</p>
+<p><img src="/Users/zwei/Github/zweichen.com/source/_posts/UbuntuSetXrdpWithGnome/0001_AuthenticationRequiredDialog.png" alt="0001_AuthenticationRequiredDialog.png"></p>
+<p>如果两次成功通过此身份验证，则colored和gsd-color将导致错误，然后XRDP连接就挂了。 所以屏蔽掉此身份验证。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">cat &lt;&lt;EOF | \</span><br><span class="line">  sudo tee /etc/polkit-1/localauthority/50-local.d/xrdp-color-manager.pkla</span><br><span class="line">[Netowrkmanager]</span><br><span class="line">Identity=unix-user:*</span><br><span class="line">Action=org.freedesktop.color-manager.create-device</span><br><span class="line">ResultAny=no</span><br><span class="line">ResultInactive=no</span><br><span class="line">ResultActive=yes</span><br><span class="line">EOF</span><br></pre></td></tr></table></figure>
+
+<p>重启服务</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl restart polkit</span><br></pre></td></tr></table></figure>
+
+<p>再链接就好了。</p>
+<p>参考资料：</p>
+<p><a href="https://www.hiroom2.com/2018/04/29/ubuntu-1804-xrdp-gnome-en/" target="_blank" rel="noopener">https://www.hiroom2.com/2018/04/29/ubuntu-1804-xrdp-gnome-en/</a></p>
 
       
 
@@ -271,7 +265,7 @@ ga('send', 'pageview');
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">tractate</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">tech</a>
         		</li>
       		
 		</ul>
@@ -327,7 +321,7 @@ ga('send', 'pageview');
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=https://zweichen.com/2019/02/24/%E8%B0%81%E6%9D%A5%E5%89%AA%E6%9C%88%E5%85%89/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=https://zweichen.com/2019/12/27/UbuntuSetXrdpWithGnome/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -341,18 +335,9 @@ ga('send', 'pageview');
   
 <nav id="article-nav">
   
-    <a href="/2019/03/09/%E5%BD%93%E4%B8%8B%E5%BD%951/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          当下录1-&#34;32位的1970&#34; 能力终将限制思绪
-        
-      </div>
-    </a>
   
-  
-    <a href="/2019/02/23/Feb-2-2019/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">ღ Feb.2 2019 ღ</div>
+    <a href="/2019/05/05/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E6%8E%A8%E8%8D%90/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">信息安全参考文献推荐</div>
       <i class="icon-circle-right"></i>
     </a>
   
