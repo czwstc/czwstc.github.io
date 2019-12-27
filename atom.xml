@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Zwei&#39;s blog For World</title>
+  
+  <subtitle>We do choose who we become.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://zweichen.com/"/>
+  <updated>2019-05-05T02:15:28.384Z</updated>
+  <id>https://zweichen.com/</id>
+  
+  <author>
+    <name>Zwei Chen</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>信息安全参考文献推荐</title>
+    <link href="https://zweichen.com/2019/05/05/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E6%8E%A8%E8%8D%90/"/>
+    <id>https://zweichen.com/2019/05/05/信息安全参考文献推荐/</id>
+    <published>2019-05-04T18:26:39.000Z</published>
+    <updated>2019-05-05T02:15:28.384Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;信息安全课程，相关参考文献和网页推荐。&lt;/p&gt;
+&lt;p&gt;我估计用一个月的时间慢慢完善&lt;/p&gt;
+&lt;p&gt;祝大家五月快乐。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="https://zweichen.com/tags/tech/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VPS 使用Shadowsocks创建前置代理</title>
+    <link href="https://zweichen.com/2019/04/21/VPSProxyShadowsocks/"/>
+    <id>https://zweichen.com/2019/04/21/VPSProxyShadowsocks/</id>
+    <published>2019-04-21T05:46:51.000Z</published>
+    <updated>2019-05-04T14:50:04.155Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;有一台国内VPS如果想要链接Shadowsocks作为前置代理中转，可以使用&lt;a href=&quot;https://shadowsocks.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Shadowsocks&lt;/a&gt;协议链接服务器，然后再用&lt;a href=&quot;https://www.privoxy.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;privoxy&lt;/a&gt;转为系统代理，然后设置Squild的HTTP代理，或者Stunnel的HTTPS代理给客户端链接。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;！！！！有点问题，写完了突然发现有更好的方案！！！！！为啥不用clash呢？！！！！&quot;&gt;&lt;a href=&quot;#！！！！有点问题，写完了突然发现有更好的方案！！！！！为啥不用clash呢？！！！！&quot; class=&quot;headerlink&quot; title=&quot;！！！！有点问题，写完了突然发现有更好的方案！！！！！为啥不用clash呢？！！！！&quot;&gt;&lt;/a&gt;！！！！有点问题，写完了突然发现有更好的方案！！！！！为啥不用clash呢？！！！！&lt;/h1&gt;&lt;p&gt;日。&lt;/p&gt;
+&lt;p&gt;先看吧。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="https://zweichen.com/tags/tech/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>‘晚安故事三——大兔子和小兔子’</title>
+    <link href="https://zweichen.com/2019/04/19/%E2%80%98%E6%99%9A%E5%AE%89%E6%95%85%E4%BA%8B%E4%B8%89%E2%80%99/"/>
+    <id>https://zweichen.com/2019/04/19/‘晚安故事三’/</id>
+    <published>2019-04-19T15:49:54.000Z</published>
+    <updated>2019-04-20T04:11:12.078Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;“我好累啊”&lt;/p&gt;
+&lt;p&gt;“那应该早点睡觉”&lt;/p&gt;
+&lt;p&gt;“想听故事睡觉”&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="ღ奈奈ღ" scheme="https://zweichen.com/tags/%E1%83%A6%E5%A5%88%E5%A5%88%E1%83%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>‘晚安故事二——《活了一百万次的猫》’</title>
+    <link href="https://zweichen.com/2019/04/17/%E2%80%98%E6%99%9A%E5%AE%89%E6%95%85%E4%BA%8B%E4%BA%8C%E2%80%99/"/>
+    <id>https://zweichen.com/2019/04/17/‘晚安故事二’/</id>
+    <published>2019-04-17T03:49:49.000Z</published>
+    <updated>2019-04-20T04:09:11.145Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;“我想听故事！”&lt;/p&gt;
+&lt;p&gt;“那我就说一个。”&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="ღ奈奈ღ" scheme="https://zweichen.com/tags/%E1%83%A6%E5%A5%88%E5%A5%88%E1%83%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>晚安故事一</title>
+    <link href="https://zweichen.com/2019/04/03/%E6%99%9A%E5%AE%89%E6%95%85%E4%BA%8B%E4%B8%80/"/>
+    <id>https://zweichen.com/2019/04/03/晚安故事一/</id>
+    <published>2019-04-03T15:46:21.000Z</published>
+    <updated>2019-04-03T15:50:11.830Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;哄奈奈睡觉，总归要故事一则。&lt;/p&gt;
+&lt;p&gt;那就写下来咯。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="ღ奈奈ღ" scheme="https://zweichen.com/tags/%E1%83%A6%E5%A5%88%E5%A5%88%E1%83%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>春天日常，感情事业双爆炸！</title>
+    <link href="https://zweichen.com/2019/03/24/diary13-24/"/>
+    <id>https://zweichen.com/2019/03/24/diary13-24/</id>
+    <published>2019-03-24T15:27:58.000Z</published>
+    <updated>2019-03-24T17:33:06.338Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Blog  updates!&lt;/p&gt;
+&lt;p&gt;由于表白被拒，发奋图强。于是新增日常⎋标签，将原有的 奈奈ღ 标签隐藏。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="diary" scheme="https://zweichen.com/tags/diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>两个值得纪念的日子（Updated）</title>
+    <link href="https://zweichen.com/2019/03/23/%E8%A2%AB%E6%8B%92%E4%BA%86/"/>
+    <id>https://zweichen.com/2019/03/23/被拒了/</id>
+    <published>2019-03-23T14:48:08.000Z</published>
+    <updated>2019-04-06T18:50:38.976Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;2019-03-23日，一个值得纪念的日子。&lt;/p&gt;
+&lt;p&gt;2019-04-01日，愚人节，另一个值得纪念的日子。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="ღ奈奈ღ" scheme="https://zweichen.com/tags/%E1%83%A6%E5%A5%88%E5%A5%88%E1%83%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Life</title>
+    <link href="https://zweichen.com/2019/03/19/Life/"/>
+    <id>https://zweichen.com/2019/03/19/Life/</id>
+    <published>2019-03-19T12:09:31.000Z</published>
+    <updated>2019-03-19T12:14:53.333Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在三月末上海的傍晚，我在阳台满是灰尘的沙发上，看着挂上去的衣服，慢慢融化，什么也没有剩下。太阳的轮廓渐渐消失了。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="tractate" scheme="https://zweichen.com/tags/tractate/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Win10-UWP应用使用CheckNetIsolation走代理</title>
+    <link href="https://zweichen.com/2019/03/18/Win10-UWP%E5%BA%94%E7%94%A8%E8%B5%B0%E4%BB%A3%E7%90%86/"/>
+    <id>https://zweichen.com/2019/03/18/Win10-UWP应用走代理/</id>
+    <published>2019-03-17T18:15:14.000Z</published>
+    <updated>2019-03-17T18:50:20.122Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;​    Win 10 的 UWP应用（应用商店下载的APP），默认是不走代理的（沙盒的网络隔离特性：禁止APP访问localhost ），也就无法在中国使用像Facebook 一样无法访问或者直接链接特别慢的APP。&lt;/p&gt;
+&lt;p&gt;​    方法其实使用&lt;a href=&quot;https://www.telerik.com/fiddler&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Fiddler&lt;/a&gt; 这个软件的方式, 不过这里提供一个CheckNetIsolation 让应用可以链接localhost 的思路。&lt;/p&gt;
+&lt;p&gt;​    好处就是&lt;strong&gt;简单迅速，不用安装软件&lt;/strong&gt;。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="https://zweichen.com/tags/tech/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>牛屄与不友善</title>
+    <link href="https://zweichen.com/2019/03/18/%E7%89%9B%E5%B1%84%E4%B8%8E%E4%B8%8D%E5%8F%8B%E5%96%84/"/>
+    <id>https://zweichen.com/2019/03/18/牛屄与不友善/</id>
+    <published>2019-03-17T17:11:13.000Z</published>
+    <updated>2019-03-17T17:59:19.500Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本文写作于16年10月。今年是19年3月。所以文笔稍显幼稚。当然，这两年我毫无进步，所以也就无所谓了。&lt;/p&gt;
+&lt;p&gt;这篇文章讲两件事：一件事是&lt;strong&gt;关于“牛屄”一词&lt;/strong&gt;，另一件事是&lt;strong&gt;关于“网络暴力”&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;无非就是提醒自己好好说话，写得不好，下次再改。&lt;/p&gt;
+&lt;p&gt;全文千把字，阅读大概十分钟。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="tractate" scheme="https://zweichen.com/tags/tractate/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>当下录1-&quot;32位的1970&quot; 能力终将限制思绪</title>
+    <link href="https://zweichen.com/2019/03/09/%E5%BD%93%E4%B8%8B%E5%BD%951/"/>
+    <id>https://zweichen.com/2019/03/09/当下录1/</id>
+    <published>2019-03-09T15:26:47.000Z</published>
+    <updated>2019-03-09T15:27:39.117Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;计算机们的时间往往从1970年1月1日开始，因为32位的计算机最多能表示61.1年的时间。2019年的今天，64位计算机正在高速普及之中，但是很久以前的规则早已影响到了方方面面。我曾以为我的思维足够广阔，思考也足够深入，无需浪费时间去做到哪些早已明白的事情。后来越来越多发现，自己会被那些“32位”的毛病所局限。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;​    —— 回忆录是对以前经历的记录。我随口胡编乱造了回忆录、当下录、以及未来录给我自己。&lt;/p&gt;
+&lt;p&gt;当下录是记录我最近想到了什么问题。未来录是记录我以后将会做什么。回忆录就是我将值得记录的回忆记录下来。十分简单，提出问题不一定有方法，有了方法也不一定有结果。谁不是在思绪的海洋中苟且沉浮？&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="tractate" scheme="https://zweichen.com/tags/tractate/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>誰來剪月光</title>
+    <link href="https://zweichen.com/2019/02/24/%E8%B0%81%E6%9D%A5%E5%89%AA%E6%9C%88%E5%85%89/"/>
+    <id>https://zweichen.com/2019/02/24/谁来剪月光/</id>
+    <published>2019-02-24T09:36:29.000Z</published>
+    <updated>2019-03-17T18:54:30.940Z</updated>
+    
+    <summary type="html">
+    
+      &lt;div id=&quot;aplayer-xaUGTYKL&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
+            &lt;pre class=&quot;aplayer-lrc-content&quot;&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+        &lt;script&gt;
+          var ap = new APlayer({
+            element: document.getElementById(&quot;aplayer-xaUGTYKL&quot;),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: &quot;誰來剪月光&quot;,
+              author: &quot;陈奕迅&quot;,
+              url: &quot;https://download-1252525175.cos.ap-shanghai.myqcloud.com/MUSIC/%E8%B0%81%E6%9D%A5%E5%89%AA%E6%9C%88%E5%85%89/%E8%B0%81%E6%9D%A5%E5%89%AA%E6%9C%88%E5%85%89.mp3&quot;,
+              pic: &quot;https://download-1252525175.cos.ap-shanghai.myqcloud.com/MUSIC/%E8%B0%81%E6%9D%A5%E5%89%AA%E6%9C%88%E5%85%89/%E8%B0%81%E6%9D%A5%E5%89%AA%E6%9C%88%E5%85%89.jpeg&quot;,
+              lrc: &quot;&quot;
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        &lt;/script&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;世界亂的一塌糊塗 可是能怎樣&lt;br&gt;偶爾抬起頭來還好 有顆月亮可賞&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;夜深了，但是属于我的白天才刚刚开始。无论是思考还是休息，在夜晚都是最容易专注的。&lt;/p&gt;
+&lt;p&gt;讨厌傍晚的暗淡，讨厌太阳的离去。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="tractate" scheme="https://zweichen.com/tags/tractate/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ღ Feb.2 2019 ღ</title>
+    <link href="https://zweichen.com/2019/02/23/Feb-2-2019/"/>
+    <id>https://zweichen.com/2019/02/23/Feb-2-2019/</id>
+    <published>2019-02-22T17:14:12.000Z</published>
+    <updated>2019-02-23T09:23:19.208Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+    
+      <category term="ღ奈奈ღ" scheme="https://zweichen.com/tags/%E1%83%A6%E5%A5%88%E5%A5%88%E1%83%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2019伊始，新年与元宵</title>
+    <link href="https://zweichen.com/2019/02/20/2019%E4%BC%8A%E5%A7%8B%EF%BC%8C%E6%96%B0%E5%B9%B4%E4%B8%8E%E5%85%83%E5%AE%B5/"/>
+    <id>https://zweichen.com/2019/02/20/2019伊始，新年与元宵/</id>
+    <published>2019-02-19T17:38:12.000Z</published>
+    <updated>2019-02-23T09:23:51.238Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;新年伊始，也到了元宵节。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;大概是不放假的关系，也就无视了这类不放假的节日。&lt;/p&gt;
+&lt;p&gt;这个年，热闹的平平淡淡。各类家庭聚会扰的头痛,家里人对你指手画脚也略有烦躁。&lt;/p&gt;
+&lt;p&gt;不过这个元宵节，就要有意思的多了。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="ღ奈奈ღ" scheme="https://zweichen.com/tags/%E1%83%A6%E5%A5%88%E5%A5%88%E1%83%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我所使用的Windows软件(beta)</title>
+    <link href="https://zweichen.com/2019/02/07/%E6%88%91%E6%89%80%E4%BD%BF%E7%94%A8%E7%9A%84Windows%E8%BD%AF%E4%BB%B6/"/>
+    <id>https://zweichen.com/2019/02/07/我所使用的Windows软件/</id>
+    <published>2019-02-07T02:21:08.000Z</published>
+    <updated>2019-02-23T09:18:08.709Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;以下内容是我用Windows 的电脑里最常用的软件。但是有些软件也稍属小众，所以推荐给大家&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;和Mac 软件推荐一样，Adobe 系列等一些较贵的软件和专业性极高的软件没有放在里面。但是Windows 下面飞机中的战斗机——Office 我当然放在里面了。而且，还放了Office 的deploy 工具。可以方面的下载、安装。&lt;/p&gt;
+&lt;p&gt;当然，我不太喜欢交流盗版，你所花的每一分钱，都在为你想要的世界投票。&lt;/p&gt;
+&lt;p&gt;更新于19年2月9日&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="software" scheme="https://zweichen.com/tags/software/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我所使用的Mac软件（beta）</title>
+    <link href="https://zweichen.com/2019/02/06/%E6%88%91%E6%89%80%E4%BD%BF%E7%94%A8%E7%9A%84Mac%E8%BD%AF%E4%BB%B6(beta)/"/>
+    <id>https://zweichen.com/2019/02/06/我所使用的Mac软件(beta)/</id>
+    <published>2019-02-06T08:48:14.000Z</published>
+    <updated>2019-02-23T09:19:40.804Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;以下内容是我用Mac一年多来电脑里已经离不开的软件。无论是重装系统还是换电脑，这些软件都是排在第一位的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;当然我在推荐的时候也初步筛选了一下，比如Chrome 我没放在里面，浏览器的选择基本看个人爱好，我也不指望大家能够看了我的文章就去换一个陌生的浏览器使用。但是我希望这篇文章能够给大家介绍一些我喜欢的工具，看看是否能够给各位启发。&lt;/p&gt;
+&lt;p&gt;更新于19年2月6日&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="software" scheme="https://zweichen.com/tags/software/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>华氏451 标注</title>
+    <link href="https://zweichen.com/2018/12/14/%E5%8D%8E%E6%B0%8F451%E5%BA%A6/"/>
+    <id>https://zweichen.com/2018/12/14/华氏451度/</id>
+    <published>2018-12-14T08:48:14.000Z</published>
+    <updated>2019-02-09T11:51:29.346Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;花了前后两周的时间看了《华氏451度》这本书。觉得十分有警示意义。&lt;/p&gt;
+&lt;p&gt;以下是我用knotes 导出的kindle 标注，其中，我标注了其中比较有意思的几句话。当然，我没有加上我的任何评语。我在思考要不要加上带评语版本的。&lt;/p&gt;
+&lt;p&gt;更新于19年2月6日&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="tractate" scheme="https://zweichen.com/tags/tractate/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何在路由器上格式化 U 盘为 ext4</title>
+    <link href="https://zweichen.com/2018/12/12/%E5%A6%82%E4%BD%95%E5%9C%A8%E8%B7%AF%E7%94%B1%E5%99%A8%E4%B8%8A%E6%A0%BC%E5%BC%8F%E5%8C%96%20U%20%E7%9B%98%E4%B8%BA%20ext4/"/>
+    <id>https://zweichen.com/2018/12/12/如何在路由器上格式化 U 盘为 ext4/</id>
+    <published>2018-12-12T08:48:14.000Z</published>
+    <updated>2019-02-09T11:51:34.745Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;本教程适用于梅林、padavan、LEDE、openwrt等固件&lt;br&gt;大抵上是为了满足远程让别人给路由器插上U盘，然后远程管理才做的这么一个操作。&lt;/p&gt;
+&lt;p&gt;我是为了设置虚拟内存，所以让别人在路由器上连接上U盘，自己远程控制路由器添加u盘做虚拟缓存。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;更新于19年2月6日&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="https://zweichen.com/tags/tech/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Install Apache Guacamole on CentOS 7</title>
+    <link href="https://zweichen.com/2018/11/29/Install-Apache-Guacamole-on-CentOS-7/"/>
+    <id>https://zweichen.com/2018/11/29/Install-Apache-Guacamole-on-CentOS-7/</id>
+    <published>2018-11-29T08:48:14.000Z</published>
+    <updated>2019-02-09T11:51:45.540Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;Apache Guacamole是一个web版本的RDP客户端。无需下载客户端，就可以直接远程控制Windows，还支持VNC还有SSH。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;官网在这里：&lt;a href=&quot;http://guacamole.apache.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://guacamole.apache.org/&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;大致流程： 安装依赖，安装Tomcat，安装guacamole，然后安装java，写配置。然后跑起来。&lt;/p&gt;
+&lt;p&gt;更新于19年2月6日&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="https://zweichen.com/tags/tech/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>多用户shadowsocks&amp;AEAD加密</title>
+    <link href="https://zweichen.com/2018/10/06/%E5%A4%9A%E7%94%A8%E6%88%B7shadowsocks&amp;AEAD%E5%8A%A0%E5%AF%86/"/>
+    <id>https://zweichen.com/2018/10/06/多用户shadowsocks&amp;AEAD加密/</id>
+    <published>2018-10-06T08:48:14.000Z</published>
+    <updated>2019-05-06T12:22:25.953Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;更新于19年4月16日&lt;/p&gt;
+&lt;p&gt;1.添加了CentOS 的支持&lt;/p&gt;
+&lt;p&gt;更新于19年4月7日。&lt;/p&gt;
+&lt;p&gt;1.更改了日本的年号——令和。&lt;/p&gt;
+&lt;p&gt;2.验证了Ubuntu，可以成功安装。但是似乎需要一次性创建用户再开启ssbash&lt;/p&gt;
+&lt;p&gt;更新于19年2月6日。&lt;/p&gt;
+&lt;p&gt;删除了一个修改设置的操作，对配置文件新增了IPV6 的支持。 &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Zwei Chen &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;本教程适用系统基于Debian /Centos/Ubuntu&lt;/p&gt;
+&lt;p&gt;（我试了一下Ubuntu18.04.1，开启之前一次性创建用户成功。但是后续中断之后重新启动可能会遇到Pid出错。）&lt;/p&gt;
+&lt;p&gt;本人采用Debian7、Debian9、Ubuntu 18.04.1、CentOS 7验证。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;功能：多用户多端口，支持限制流量的shadowsocks脚本，同时支持AEAD加密方式。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;17年五月，shadowsocks提出SIP004草案，旨在使用&lt;code&gt;AEAD 算法&lt;/code&gt;取代原先的不安全的&lt;code&gt;流加密 + OTA&lt;/code&gt;，并弃用了&lt;code&gt;一次性验证 (OTA)&lt;/code&gt;。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="https://zweichen.com/tags/tech/"/>
+    
+  </entry>
+  
+</feed>
