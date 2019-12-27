@@ -14,13 +14,13 @@
 <meta property="og:url" content="https://zweichen.com/2019/12/27/UbuntuSetXrdpWithGnome/index.html">
 <meta property="og:site_name" content="Zwei&#39;s blog For World">
 <meta property="og:description" content="鉴于网上查到的各类ubuntu配置XRDP 基本上就是瞎几把乱写，只能，就看了下XRDP的文档，结合了一下论坛上的资料。发现需要在用户目录创建一个.xsessionrc文件。  ​    基于Ubuntu1804 桌面版本（老师装的桌面我有啥办法），所以自带gnome，然后配置使用XRDP，来多用户使用桌面。 ​    解决了输入密码之后蓝屏无法登陆的问题，至于登陆失败的时候没有提示，这是个ub">
-<meta property="og:image" content="https://zweichen.com/Users/zwei/Github/zweichen.com/source/_posts/UbuntuSetXrdpWithGnome/0001_AuthenticationRequiredDialog.png">
+<meta property="og:image" content="https://zweichen.com/2019/12/27/UbuntuSetXrdpWithGnome/0001_AuthenticationRequiredDialog.png">
 <meta property="article:published_time" content="2019-12-27T07:44:58.000Z">
-<meta property="article:modified_time" content="2019-12-27T08:09:28.372Z">
+<meta property="article:modified_time" content="2019-12-27T08:12:31.818Z">
 <meta property="article:author" content="Zwei Chen">
 <meta property="article:tag" content="tech">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://zweichen.com/Users/zwei/Github/zweichen.com/source/_posts/UbuntuSetXrdpWithGnome/0001_AuthenticationRequiredDialog.png">
+<meta name="twitter:image" content="https://zweichen.com/2019/12/27/UbuntuSetXrdpWithGnome/0001_AuthenticationRequiredDialog.png">
   
     <link rel="alternative" href="/atom.xml" title="Zwei&#39;s blog For World" type="application/atom+xml">
   
@@ -242,7 +242,7 @@ ga('send', 'pageview');
 <p>如果是用putty或者mobraxterm 参考这里：</p>
 <p><a href="https://greatestrabit.github.io/2016/03/30/sshportforward/" target="_blank" rel="noopener">https://greatestrabit.github.io/2016/03/30/sshportforward/</a></p>
 <h2 id="修复需要身份验证"><a href="#修复需要身份验证" class="headerlink" title="修复需要身份验证"></a>修复需要身份验证</h2><p>如果使用Xorg作为会话类型，则在创建会话后将显示“Authentication Required”对话框。</p>
-<p><img src="/Users/zwei/Github/zweichen.com/source/_posts/UbuntuSetXrdpWithGnome/0001_AuthenticationRequiredDialog.png" alt="0001_AuthenticationRequiredDialog.png"></p>
+<p><img src="./0001_AuthenticationRequiredDialog.png" alt="0001_AuthenticationRequiredDialog.png"></p>
 <p>如果两次成功通过此身份验证，则colored和gsd-color将导致错误，然后XRDP连接就挂了。 所以屏蔽掉此身份验证。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">cat &lt;&lt;EOF | \</span><br><span class="line">  sudo tee /etc/polkit-1/localauthority/50-local.d/xrdp-color-manager.pkla</span><br><span class="line">[Netowrkmanager]</span><br><span class="line">Identity=unix-user:*</span><br><span class="line">Action=org.freedesktop.color-manager.create-device</span><br><span class="line">ResultAny=no</span><br><span class="line">ResultInactive=no</span><br><span class="line">ResultActive=yes</span><br><span class="line">EOF</span><br></pre></td></tr></table></figure>
 
