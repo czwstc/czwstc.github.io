@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zweichen.com/"/>
-  <updated>2019-12-27T08:12:31.818Z</updated>
+  <updated>2020-02-04T16:32:36.229Z</updated>
   <id>https://zweichen.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用Apple Configurator 2 管理你的Apple Devices</title>
+    <link href="https://zweichen.com/2020/02/03/ManagerApple-devicesinConf/"/>
+    <id>https://zweichen.com/2020/02/03/ManagerApple-devicesinConf/</id>
+    <published>2020-02-03T13:11:44.000Z</published>
+    <updated>2020-02-04T16:32:36.229Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近买了Apple TV 4K，因为在路由器上设置代理规则，然后分流的规则有点问题（Apple Store 部分打不开，部分APP 太慢）。就想要抓个包。结果发现了&lt;strong&gt;Apple Configurator 2&lt;/strong&gt; ，一个Apple 的 iOS设备管理工具。&lt;/p&gt;
+&lt;p&gt;此文是长文，显然我还没写完 /dog。目前写了第一个。&lt;/p&gt;
+&lt;p&gt;PS: 你需要一台运行着macOS 电脑来使用&lt;strong&gt;Apple Configurator 2&lt;/strong&gt;。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="https://zweichen.com/tags/tech/"/>
+    
+  </entry>
   
   <entry>
     <title>Ubuntu 1804使用Xrdp连接到 Gnome环境</title>
@@ -63,15 +83,17 @@
     <link href="https://zweichen.com/2019/04/21/VPSProxyShadowsocks/"/>
     <id>https://zweichen.com/2019/04/21/VPSProxyShadowsocks/</id>
     <published>2019-04-21T05:46:51.000Z</published>
-    <updated>2019-05-04T14:50:04.155Z</updated>
+    <updated>2020-02-04T16:01:43.374Z</updated>
     
     <summary type="html">
     
       &lt;blockquote&gt;
-&lt;p&gt;有一台国内VPS如果想要链接Shadowsocks作为前置代理中转，可以使用&lt;a href=&quot;https://shadowsocks.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Shadowsocks&lt;/a&gt;协议链接服务器，然后再用&lt;a href=&quot;https://www.privoxy.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;privoxy&lt;/a&gt;转为系统代理，然后设置Squild的HTTP代理，或者Stunnel的HTTPS代理给客户端链接。&lt;/p&gt;
+&lt;p&gt;使用iptables 和 ss-redir创建前置代理。可以在VPS上建立MT-Proto和ss-server。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h1 id=&quot;！！！！有点问题，写完了突然发现有更好的方案！！！！！为啥不用clash呢？！！！！&quot;&gt;&lt;a href=&quot;#！！！！有点问题，写完了突然发现有更好的方案！！！！！为啥不用clash呢？！！！！&quot; class=&quot;headerlink&quot; title=&quot;！！！！有点问题，写完了突然发现有更好的方案！！！！！为啥不用clash呢？！！！！&quot;&gt;&lt;/a&gt;！！！！有点问题，写完了突然发现有更好的方案！！！！！为啥不用clash呢？！！！！&lt;/h1&gt;&lt;p&gt;日。&lt;/p&gt;
-&lt;p&gt;先看吧。&lt;/p&gt;
+&lt;p&gt;本文尚未完成，文章还未修改。&lt;/p&gt;
+&lt;p&gt;使用此原理可实现的典型功能：&lt;/p&gt;
+&lt;p&gt;1.中转墙外的ss服务器。使用自定义的协议来经过GFW。&lt;/p&gt;
+&lt;p&gt;2.墙内使用机场的代理，作为自己MT-Proto 或者 其他服务器的前置代理。&lt;/p&gt;
     
     </summary>
     
@@ -425,29 +447,6 @@
 &lt;p&gt;本教程适用于梅林、padavan、LEDE、openwrt等固件&lt;br&gt;大抵上是为了满足远程让别人给路由器插上U盘，然后远程管理才做的这么一个操作。&lt;/p&gt;
 &lt;p&gt;我是为了设置虚拟内存，所以让别人在路由器上连接上U盘，自己远程控制路由器添加u盘做虚拟缓存。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;更新于19年2月6日&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="tech" scheme="https://zweichen.com/tags/tech/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Install Apache Guacamole on CentOS 7</title>
-    <link href="https://zweichen.com/2018/11/29/Install-Apache-Guacamole-on-CentOS-7/"/>
-    <id>https://zweichen.com/2018/11/29/Install-Apache-Guacamole-on-CentOS-7/</id>
-    <published>2018-11-29T08:48:14.000Z</published>
-    <updated>2019-02-09T11:51:45.540Z</updated>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;Apache Guacamole是一个web版本的RDP客户端。无需下载客户端，就可以直接远程控制Windows，还支持VNC还有SSH。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;官网在这里：&lt;a href=&quot;http://guacamole.apache.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://guacamole.apache.org/&lt;/a&gt; &lt;/p&gt;
-&lt;p&gt;大致流程： 安装依赖，安装Tomcat，安装guacamole，然后安装java，写配置。然后跑起来。&lt;/p&gt;
 &lt;p&gt;更新于19年2月6日&lt;/p&gt;
     
     </summary>
